@@ -1,0 +1,2 @@
+[2022-06-17 16:41:48.6637]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectOUR(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:29) - 
+[2022-06-17 16:48:50.8066]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectOUR(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:32) - 

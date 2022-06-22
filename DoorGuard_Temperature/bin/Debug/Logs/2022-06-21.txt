@@ -1,0 +1,1007 @@
+[2022-06-21 12:01:55.4829]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:58) - 
+[2022-06-21 12:01:55.6179]--ERROR--[1]--[System.Data.SqlClient.SqlException: 接近關鍵字 'as' 之處的語法不正確。] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurLast(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:269) - System.Data.SqlClient.SqlException (0x80131904): 接近關鍵字 'as' 之處的語法不正確。
+   於 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   於 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   於 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   於 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   於 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   於 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   於 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   於 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   於 System.Data.SqlClient.SqlCommand.ExecuteReader()
+   於 DoorGuard_Temperature.Program.ExcuteSqlCmdOurLast(String sql) 於 D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs: 行 247
+ClientConnectionId:01e06add-9fca-4b4c-986c-151d028946c2
+Error Number:156,State:1,Class:15 HelpLink.ProdName: Microsoft SQL Server;HelpLink.ProdVer: 11.00.7001;HelpLink.EvtSrc: MSSQLServer;HelpLink.EvtID: 156;HelpLink.BaseHelpUrl: http://go.microsoft.com/fwlink;HelpLink.LinkId: 20476
+[2022-06-21 12:03:54.2414]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:58) - 
+[2022-06-21 12:03:54.3304]--ERROR--[1]--[System.Data.SqlClient.SqlException: 接近關鍵字 'as' 之處的語法不正確。] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurLast(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:269) - System.Data.SqlClient.SqlException (0x80131904): 接近關鍵字 'as' 之處的語法不正確。
+   於 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   於 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   於 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   於 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   於 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   於 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   於 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   於 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   於 System.Data.SqlClient.SqlCommand.ExecuteReader()
+   於 DoorGuard_Temperature.Program.ExcuteSqlCmdOurLast(String sql) 於 D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs: 行 247
+ClientConnectionId:d27db4aa-3f8b-438a-a850-3064d79767f3
+Error Number:156,State:1,Class:15 HelpLink.ProdName: Microsoft SQL Server;HelpLink.ProdVer: 11.00.7001;HelpLink.EvtSrc: MSSQLServer;HelpLink.EvtID: 156;HelpLink.BaseHelpUrl: http://go.microsoft.com/fwlink;HelpLink.LinkId: 20476
+[2022-06-21 12:06:01.2185]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:59) - 
+[2022-06-21 12:06:01.2875]--ERROR--[1]--[System.Data.SqlClient.SqlException: 接近關鍵字 'as' 之處的語法不正確。] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurLast(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:270) - System.Data.SqlClient.SqlException (0x80131904): 接近關鍵字 'as' 之處的語法不正確。
+   於 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   於 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   於 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   於 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   於 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   於 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   於 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   於 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   於 System.Data.SqlClient.SqlCommand.ExecuteReader()
+   於 DoorGuard_Temperature.Program.ExcuteSqlCmdOurLast(String sql) 於 D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs: 行 248
+ClientConnectionId:f98ab991-eaf3-441d-8a19-1030e4ad4ae4
+Error Number:156,State:1,Class:15 HelpLink.ProdName: Microsoft SQL Server;HelpLink.ProdVer: 11.00.7001;HelpLink.EvtSrc: MSSQLServer;HelpLink.EvtID: 156;HelpLink.BaseHelpUrl: http://go.microsoft.com/fwlink;HelpLink.LinkId: 20476
+[2022-06-21 12:41:31.3027]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:59) - 
+[2022-06-21 12:41:31.4937]--ERROR--[1]--[System.Data.SqlClient.SqlException: 接近關鍵字 'as' 之處的語法不正確。] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurLast(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:270) - System.Data.SqlClient.SqlException (0x80131904): 接近關鍵字 'as' 之處的語法不正確。
+   於 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   於 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   於 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   於 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   於 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   於 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   於 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   於 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   於 System.Data.SqlClient.SqlCommand.ExecuteReader()
+   於 DoorGuard_Temperature.Program.ExcuteSqlCmdOurLast(String sql) 於 D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs: 行 248
+ClientConnectionId:41b38720-fcb3-464c-87aa-f80f8baf3390
+Error Number:156,State:1,Class:15 HelpLink.ProdName: Microsoft SQL Server;HelpLink.ProdVer: 11.00.7001;HelpLink.EvtSrc: MSSQLServer;HelpLink.EvtID: 156;HelpLink.BaseHelpUrl: http://go.microsoft.com/fwlink;HelpLink.LinkId: 20476
+[2022-06-21 13:37:36.7703]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:59) - 
+[2022-06-21 13:37:36.9399]--ERROR--[1]--[System.Data.SqlClient.SqlException: 接近關鍵字 'as' 之處的語法不正確。] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:302) - System.Data.SqlClient.SqlException (0x80131904): 接近關鍵字 'as' 之處的語法不正確。
+   於 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   於 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   於 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   於 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   於 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   於 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   於 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   於 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   於 System.Data.SqlClient.SqlCommand.ExecuteReader()
+   於 DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(String sql) 於 D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs: 行 280
+ClientConnectionId:1c279bb8-93c2-4313-9b4c-a7b8110badd4
+Error Number:156,State:1,Class:15 HelpLink.ProdName: Microsoft SQL Server;HelpLink.ProdVer: 11.00.7001;HelpLink.EvtSrc: MSSQLServer;HelpLink.EvtID: 156;HelpLink.BaseHelpUrl: http://go.microsoft.com/fwlink;HelpLink.LinkId: 20476
+[2022-06-21 13:42:03.3321]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:59) - 
+[2022-06-21 13:42:03.3971]--ERROR--[1]--[System.Data.SqlClient.SqlException: 接近關鍵字 'as' 之處的語法不正確。] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:303) - System.Data.SqlClient.SqlException (0x80131904): 接近關鍵字 'as' 之處的語法不正確。
+   於 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   於 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   於 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   於 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   於 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   於 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   於 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   於 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   於 System.Data.SqlClient.SqlCommand.ExecuteReader()
+   於 DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(String sql) 於 D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs: 行 281
+ClientConnectionId:f11efdf6-79be-45a4-a027-c76acc1af34c
+Error Number:156,State:1,Class:15 HelpLink.ProdName: Microsoft SQL Server;HelpLink.ProdVer: 11.00.7001;HelpLink.EvtSrc: MSSQLServer;HelpLink.EvtID: 156;HelpLink.BaseHelpUrl: http://go.microsoft.com/fwlink;HelpLink.LinkId: 20476
+[2022-06-21 14:06:06.7139]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:64) - 
+[2022-06-21 14:06:06.7835]--ERROR--[1]--[System.Data.SqlClient.SqlException: 接近關鍵字 'as' 之處的語法不正確。] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:306) - System.Data.SqlClient.SqlException (0x80131904): 接近關鍵字 'as' 之處的語法不正確。
+   於 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   於 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   於 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   於 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   於 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   於 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   於 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   於 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   於 System.Data.SqlClient.SqlCommand.ExecuteReader()
+   於 DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(String sql) 於 D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs: 行 284
+ClientConnectionId:44f504d0-ab92-4e50-bb35-9cfd84379a51
+Error Number:156,State:1,Class:15 HelpLink.ProdName: Microsoft SQL Server;HelpLink.ProdVer: 11.00.7001;HelpLink.EvtSrc: MSSQLServer;HelpLink.EvtID: 156;HelpLink.BaseHelpUrl: http://go.microsoft.com/fwlink;HelpLink.LinkId: 20476
+[2022-06-21 14:23:33.1240]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:64) - 
+[2022-06-21 14:23:33.2520]--ERROR--[1]--[System.Data.SqlClient.SqlException: 接近關鍵字 'as' 之處的語法不正確。] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:310) - System.Data.SqlClient.SqlException (0x80131904): 接近關鍵字 'as' 之處的語法不正確。
+   於 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   於 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   於 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   於 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   於 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   於 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   於 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   於 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   於 System.Data.SqlClient.SqlCommand.ExecuteReader()
+   於 DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(String sql) 於 D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs: 行 288
+ClientConnectionId:eef3cede-9d38-40f8-b2c9-10b365a4a8a4
+Error Number:156,State:1,Class:15 HelpLink.ProdName: Microsoft SQL Server;HelpLink.ProdVer: 11.00.7001;HelpLink.EvtSrc: MSSQLServer;HelpLink.EvtID: 156;HelpLink.BaseHelpUrl: http://go.microsoft.com/fwlink;HelpLink.LinkId: 20476
+[2022-06-21 14:28:51.4318]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:64) - 
+[2022-06-21 14:28:51.5018]--ERROR--[1]--[System.Data.SqlClient.SqlException: 接近關鍵字 'as' 之處的語法不正確。] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:312) - System.Data.SqlClient.SqlException (0x80131904): 接近關鍵字 'as' 之處的語法不正確。
+   於 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   於 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   於 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   於 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   於 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   於 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   於 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   於 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   於 System.Data.SqlClient.SqlCommand.ExecuteReader()
+   於 DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(String sql) 於 D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs: 行 290
+ClientConnectionId:1d4ea915-5597-4e1d-a49c-ad84e7cad42d
+Error Number:156,State:1,Class:15 HelpLink.ProdName: Microsoft SQL Server;HelpLink.ProdVer: 11.00.7001;HelpLink.EvtSrc: MSSQLServer;HelpLink.EvtID: 156;HelpLink.BaseHelpUrl: http://go.microsoft.com/fwlink;HelpLink.LinkId: 20476
+[2022-06-21 14:30:18.5096]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:64) - 
+[2022-06-21 14:30:18.5786]--ERROR--[1]--[System.Data.SqlClient.SqlException: 接近關鍵字 'as' 之處的語法不正確。] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:312) - System.Data.SqlClient.SqlException (0x80131904): 接近關鍵字 'as' 之處的語法不正確。
+   於 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   於 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   於 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   於 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   於 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   於 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   於 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   於 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   於 System.Data.SqlClient.SqlCommand.ExecuteReader()
+   於 DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(String sql) 於 D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs: 行 290
+ClientConnectionId:b2e50c8e-722a-46d4-81ef-978d7f958cb4
+Error Number:156,State:1,Class:15 HelpLink.ProdName: Microsoft SQL Server;HelpLink.ProdVer: 11.00.7001;HelpLink.EvtSrc: MSSQLServer;HelpLink.EvtID: 156;HelpLink.BaseHelpUrl: http://go.microsoft.com/fwlink;HelpLink.LinkId: 20476
+[2022-06-21 14:31:02.9979]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:64) - 
+[2022-06-21 14:33:54.8886]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:64) - 
+[2022-06-21 14:35:09.6389]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:64) - 
+[2022-06-21 14:36:37.7406]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:64) - 
+[2022-06-21 14:38:37.3336]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:64) - 
+[2022-06-21 14:43:19.7000]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:64) - 
+[2022-06-21 14:44:16.3679]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:64) - 
+[2022-06-21 14:45:48.4331]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:64) - 
+[2022-06-21 14:46:15.2587]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:65) - 
+[2022-06-21 14:46:15.3405]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:65) - 
+[2022-06-21 14:50:35.1650]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:66) - 
+[2022-06-21 14:50:35.2496]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:66) - 
+[2022-06-21 14:52:46.6849]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:65) - 
+[2022-06-21 14:53:52.3717]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:65) - 
+[2022-06-21 14:55:08.2933]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:65) - 
+[2022-06-21 14:58:11.7524]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:65) - 
+[2022-06-21 14:59:28.8183]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:65) - 
+[2022-06-21 15:00:14.1592]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:65) - 
+[2022-06-21 15:00:38.6521]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:65) - 
+[2022-06-21 15:00:54.0653]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:65) - 
+[2022-06-21 15:01:26.7171]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:65) - 
+[2022-06-21 15:04:56.2050]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:65) - 
+[2022-06-21 15:08:13.0606]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:65) - 
+[2022-06-21 15:10:05.4641]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:65) - 
+[2022-06-21 15:13:07.8430]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:65) - 
+[2022-06-21 15:15:49.2445]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:65) - 
+[2022-06-21 15:18:35.0512]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:65) - 
+[2022-06-21 15:20:09.5276]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:65) - 
+[2022-06-21 15:20:09.6187]--ERROR--[1]--[System.Data.SqlClient.SqlException: 接近 '13' 之處的語法不正確。] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:329) - System.Data.SqlClient.SqlException (0x80131904): 接近 '13' 之處的語法不正確。
+   於 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   於 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   於 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   於 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   於 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   於 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   於 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   於 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   於 System.Data.SqlClient.SqlCommand.ExecuteReader()
+   於 DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday() 於 D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs: 行 307
+ClientConnectionId:1181574e-ee6b-4839-9dc9-fafb4889703b
+Error Number:102,State:1,Class:15 HelpLink.ProdName: Microsoft SQL Server;HelpLink.ProdVer: 11.00.7001;HelpLink.EvtSrc: MSSQLServer;HelpLink.EvtID: 102;HelpLink.BaseHelpUrl: http://go.microsoft.com/fwlink;HelpLink.LinkId: 20476
+[2022-06-21 15:22:18.2928]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:65) - 
+[2022-06-21 15:22:18.3427]--ERROR--[1]--[System.FormatException: 字串未被辨認為有效的 DateTime。] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:329) - System.FormatException: 字串未被辨認為有效的 DateTime。
+   於 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   於 System.Convert.ToDateTime(String value)
+   於 DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday() 於 D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs: 行 304
+[2022-06-21 15:22:50.9244]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:65) - 
+[2022-06-21 15:22:50.9724]--ERROR--[1]--[System.FormatException: 字串未被辨認為有效的 DateTime。] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:329) - System.FormatException: 字串未被辨認為有效的 DateTime。
+   於 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   於 System.Convert.ToDateTime(String value)
+   於 DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday() 於 D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs: 行 304
+[2022-06-21 15:24:06.2039]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:66) - 
+[2022-06-21 15:24:06.2523]--ERROR--[1]--[System.FormatException: 字串未被辨認為有效的 DateTime。] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:330) - System.FormatException: 字串未被辨認為有效的 DateTime。
+   於 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   於 System.Convert.ToDateTime(String value)
+   於 DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday() 於 D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs: 行 305
+[2022-06-21 15:24:54.3290]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:65) - 
+[2022-06-21 15:24:54.3855]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:322) - 
+[2022-06-21 15:25:51.3767]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:65) - 
+[2022-06-21 15:25:51.4220]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:322) - 
+[2022-06-21 15:26:35.8383]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:65) - 
+[2022-06-21 15:26:35.8824]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:322) - 
+[2022-06-21 15:28:08.3686]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:65) - 
+[2022-06-21 15:28:08.4164]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:322) - 
+[2022-06-21 15:28:08.4304]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:235) - 
+[2022-06-21 15:28:08.4304]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:235) - 
+[2022-06-21 15:28:08.4304]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:251) - 
+[2022-06-21 15:28:31.0661]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:65) - 
+[2022-06-21 15:28:31.1136]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:322) - 
+[2022-06-21 15:28:31.1136]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:235) - 
+[2022-06-21 15:28:31.1136]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:235) - 
+[2022-06-21 15:28:31.1136]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:251) - 
+[2022-06-21 15:29:17.3360]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:65) - 
+[2022-06-21 15:29:17.3829]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:324) - 
+[2022-06-21 15:29:17.3829]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:235) - 
+[2022-06-21 15:29:17.3952]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:235) - 
+[2022-06-21 15:29:17.3952]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:251) - 
+[2022-06-21 15:31:30.1913]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:65) - 
+[2022-06-21 15:31:30.2393]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:325) - 
+[2022-06-21 15:31:30.2463]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:235) - 
+[2022-06-21 15:31:30.2463]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:235) - 
+[2022-06-21 15:31:30.2463]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:252) - 
+[2022-06-21 15:31:49.6292]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:65) - 
+[2022-06-21 15:31:49.6752]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:325) - 
+[2022-06-21 15:31:49.6821]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:235) - 
+[2022-06-21 15:31:49.6821]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:252) - 
+[2022-06-21 15:34:47.0948]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:65) - 
+[2022-06-21 15:34:47.1412]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:325) - 
+[2022-06-21 15:34:47.1492]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:235) - 
+[2022-06-21 15:34:47.1492]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:252) - 
+[2022-06-21 15:35:33.3487]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:65) - 
+[2022-06-21 15:35:33.3976]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:325) - 
+[2022-06-21 15:35:33.4066]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:235) - 
+[2022-06-21 15:35:33.4066]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:252) - 
+[2022-06-21 15:41:24.3837]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:65) - 
+[2022-06-21 15:41:24.4317]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:327) - 
+[2022-06-21 15:41:24.4398]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:235) - 
+[2022-06-21 15:41:24.4398]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:254) - 
+[2022-06-21 15:43:19.8968]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:65) - 
+[2022-06-21 15:43:19.9428]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:327) - 
+[2022-06-21 15:43:19.9508]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:235) - 
+[2022-06-21 15:43:19.9508]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:254) - 
+[2022-06-21 15:45:58.6263]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:65) - 
+[2022-06-21 15:45:58.6764]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:327) - 
+[2022-06-21 15:45:58.6764]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:235) - 
+[2022-06-21 15:45:58.6764]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:254) - 
+[2022-06-21 15:58:28.4894]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:65) - 
+[2022-06-21 15:58:28.5376]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:327) - 
+[2022-06-21 15:58:28.5376]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:235) - 
+[2022-06-21 15:58:28.5376]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:254) - 
+[2022-06-21 16:00:29.1885]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:65) - 
+[2022-06-21 16:00:29.2338]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:327) - 
+[2022-06-21 16:00:29.2425]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:235) - 
+[2022-06-21 16:00:29.2425]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:254) - 
+[2022-06-21 16:01:21.7773]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:65) - 
+[2022-06-21 16:01:21.8227]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:327) - 
+[2022-06-21 16:01:21.8307]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:235) - 
+[2022-06-21 16:01:21.8307]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:254) - 
+[2022-06-21 16:01:50.8354]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:65) - 
+[2022-06-21 16:01:50.8853]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:327) - 
+[2022-06-21 16:01:50.8939]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:235) - 
+[2022-06-21 16:04:24.9502]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:66) - 
+[2022-06-21 16:04:24.9964]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:328) - 
+[2022-06-21 16:04:24.9964]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:237) - 
+[2022-06-21 16:04:24.9964]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:256) - 
+[2022-06-21 16:08:32.9548]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:66) - 
+[2022-06-21 16:08:33.0018]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:330) - 
+[2022-06-21 16:08:33.0148]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:239) - 
+[2022-06-21 16:08:33.0148]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:258) - 
+[2022-06-21 16:15:15.0016]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:66) - 
+[2022-06-21 16:15:15.1246]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:330) - 
+[2022-06-21 16:15:15.1336]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:239) - 
+[2022-06-21 16:15:15.1336]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:239) - 
+[2022-06-21 16:15:15.1336]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:258) - 
+[2022-06-21 16:15:15.1336]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:239) - 
+[2022-06-21 16:15:15.1336]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:239) - 
+[2022-06-21 16:15:15.1336]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:258) - 
+[2022-06-21 16:17:18.3276]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:66) - 
+[2022-06-21 16:17:18.3730]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:330) - 
+[2022-06-21 16:17:18.3802]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:239) - 
+[2022-06-21 16:17:18.3802]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:239) - 
+[2022-06-21 16:17:18.3802]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:258) - 
+[2022-06-21 16:17:18.3802]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:239) - 
+[2022-06-21 16:17:18.3802]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:239) - 
+[2022-06-21 16:17:18.3802]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:258) - 
+[2022-06-21 16:18:54.4660]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:66) - 
+[2022-06-21 16:18:54.5116]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:330) - 
+[2022-06-21 16:18:54.5202]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:239) - 
+[2022-06-21 16:18:54.5202]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:239) - 
+[2022-06-21 16:18:54.5202]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:258) - 
+[2022-06-21 16:18:54.5202]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:239) - 
+[2022-06-21 16:18:54.5202]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:239) - 
+[2022-06-21 16:18:54.5202]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:258) - 
+[2022-06-21 16:20:28.8986]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:66) - 
+[2022-06-21 16:22:56.7181]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:66) - 
+[2022-06-21 16:24:02.0904]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:66) - 
+[2022-06-21 16:24:02.1399]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:330) - 
+[2022-06-21 16:24:02.1399]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:239) - 
+[2022-06-21 16:24:02.1511]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:239) - 
+[2022-06-21 16:24:02.1511]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:258) - 
+[2022-06-21 16:24:02.1511]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:239) - 
+[2022-06-21 16:24:02.1511]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:239) - 
+[2022-06-21 16:24:02.1511]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:258) - 
+[2022-06-21 16:28:01.4376]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:66) - 
+[2022-06-21 16:28:01.4893]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:331) - 
+[2022-06-21 16:28:01.4893]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:240) - 
+[2022-06-21 16:28:01.4893]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:240) - 
+[2022-06-21 16:28:01.4893]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:259) - 
+[2022-06-21 16:28:01.5073]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:240) - 
+[2022-06-21 16:28:01.5073]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:240) - 
+[2022-06-21 16:28:01.5073]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:259) - 
+[2022-06-21 16:29:08.5877]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:66) - 
+[2022-06-21 16:29:08.6351]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:331) - 
+[2022-06-21 16:29:08.6428]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:240) - 
+[2022-06-21 16:29:08.6428]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:240) - 
+[2022-06-21 16:29:08.6428]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:259) - 
+[2022-06-21 16:29:08.6428]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:240) - 
+[2022-06-21 16:29:08.6428]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:240) - 
+[2022-06-21 16:29:08.6428]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:259) - 
+[2022-06-21 16:31:46.4325]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:66) - 
+[2022-06-21 16:31:46.4838]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:331) - 
+[2022-06-21 16:31:46.4838]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:240) - 
+[2022-06-21 16:31:46.4838]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:240) - 
+[2022-06-21 16:31:46.4838]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:259) - 
+[2022-06-21 16:31:46.4988]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:240) - 
+[2022-06-21 16:31:46.4988]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:240) - 
+[2022-06-21 16:31:46.4988]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:259) - 
+[2022-06-21 16:33:28.8483]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:66) - 
+[2022-06-21 16:33:28.8993]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:331) - 
+[2022-06-21 16:33:28.9077]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:240) - 
+[2022-06-21 16:33:28.9077]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:240) - 
+[2022-06-21 16:33:28.9077]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:259) - 
+[2022-06-21 16:33:28.9077]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:240) - 
+[2022-06-21 16:33:28.9177]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:240) - 
+[2022-06-21 16:33:28.9177]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:259) - 
+[2022-06-21 16:34:18.7056]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:66) - 
+[2022-06-21 16:34:18.7526]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:331) - 
+[2022-06-21 16:34:18.7599]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:240) - 
+[2022-06-21 16:34:18.7599]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:240) - 
+[2022-06-21 16:34:18.7599]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:259) - 
+[2022-06-21 16:34:18.7599]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:240) - 
+[2022-06-21 16:34:18.7599]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:240) - 
+[2022-06-21 16:34:18.7599]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:259) - 
+[2022-06-21 16:46:34.1682]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:66) - 
+[2022-06-21 16:46:34.2652]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:331) - 
+[2022-06-21 16:46:34.2752]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:240) - 
+[2022-06-21 16:46:34.2752]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:240) - 
+[2022-06-21 16:46:34.2752]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:259) - 
+[2022-06-21 16:46:34.2752]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:240) - 
+[2022-06-21 16:46:34.2752]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:240) - 
+[2022-06-21 16:46:34.2752]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:259) - 
+[2022-06-21 16:48:20.7475]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:66) - 
+[2022-06-21 16:48:20.7955]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:331) - 
+[2022-06-21 16:48:20.8055]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:240) - 
+[2022-06-21 16:48:20.8055]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:240) - 
+[2022-06-21 16:48:20.8055]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:259) - 
+[2022-06-21 16:48:20.8055]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:240) - 
+[2022-06-21 16:48:20.8055]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:240) - 
+[2022-06-21 16:48:20.8055]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:259) - 
+[2022-06-21 16:53:11.8262]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 16:53:11.8742]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:332) - 
+[2022-06-21 16:53:11.8823]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:241) - 
+[2022-06-21 16:53:11.8823]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:241) - 
+[2022-06-21 16:53:11.8823]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:260) - 
+[2022-06-21 16:53:11.8823]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:241) - 
+[2022-06-21 16:53:11.8932]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:241) - 
+[2022-06-21 16:53:11.8932]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:260) - 
+[2022-06-21 16:54:14.4156]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 16:54:14.4620]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:332) - 
+[2022-06-21 16:54:14.4696]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:241) - 
+[2022-06-21 16:54:14.4696]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:241) - 
+[2022-06-21 16:54:14.4696]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:260) - 
+[2022-06-21 16:54:14.4696]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:241) - 
+[2022-06-21 16:54:14.4696]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:241) - 
+[2022-06-21 16:54:14.4696]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:260) - 
+[2022-06-21 16:56:49.3819]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 16:56:49.4296]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:334) - 
+[2022-06-21 16:56:49.4486]--ERROR--[1]--[System.FormatException: 字串未被辨認為有效的 DateTime。] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusTodayUPDATE(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:423) - System.FormatException: 字串未被辨認為有效的 DateTime。
+   於 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   於 System.Convert.ToDateTime(String value)
+   於 DoorGuard_Temperature.Program.ExcuteSqlCmdCusTodayUPDATE(String sqlCus) 於 D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs: 行 404
+[2022-06-21 16:56:49.4593]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:243) - 
+[2022-06-21 16:56:49.4593]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:243) - 
+[2022-06-21 16:56:49.4593]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:262) - 
+[2022-06-21 16:56:49.4593]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:243) - 
+[2022-06-21 16:56:49.4695]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:243) - 
+[2022-06-21 16:56:49.4695]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:262) - 
+[2022-06-21 16:57:30.4265]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 16:57:30.4725]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:334) - 
+[2022-06-21 16:57:30.4918]--ERROR--[1]--[System.FormatException: 字串未被辨認為有效的 DateTime。] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusTodayUPDATE(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:423) - System.FormatException: 字串未被辨認為有效的 DateTime。
+   於 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   於 System.Convert.ToDateTime(String value)
+   於 DoorGuard_Temperature.Program.ExcuteSqlCmdCusTodayUPDATE(String sqlCus) 於 D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs: 行 404
+[2022-06-21 16:57:30.5009]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:243) - 
+[2022-06-21 16:57:30.5009]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:243) - 
+[2022-06-21 16:57:30.5009]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:262) - 
+[2022-06-21 16:57:30.5009]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:243) - 
+[2022-06-21 16:57:30.5009]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:243) - 
+[2022-06-21 16:57:30.5009]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:262) - 
+[2022-06-21 16:58:40.2718]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 16:58:40.3183]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:334) - 
+[2022-06-21 16:58:40.3364]--ERROR--[1]--[System.FormatException: 字串未被辨認為有效的 DateTime。] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusTodayUPDATE(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:423) - System.FormatException: 字串未被辨認為有效的 DateTime。
+   於 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   於 System.Convert.ToDateTime(String value)
+   於 DoorGuard_Temperature.Program.ExcuteSqlCmdCusTodayUPDATE(String sqlCus) 於 D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs: 行 404
+[2022-06-21 16:58:40.3454]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:243) - 
+[2022-06-21 16:58:40.3454]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:243) - 
+[2022-06-21 16:58:40.3454]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:262) - 
+[2022-06-21 16:58:40.3454]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:243) - 
+[2022-06-21 16:58:40.3454]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:243) - 
+[2022-06-21 16:58:40.3454]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:262) - 
+[2022-06-21 16:59:34.6921]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 16:59:34.7402]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:334) - 
+[2022-06-21 16:59:34.7600]--ERROR--[1]--[System.FormatException: 字串未被辨認為有效的 DateTime。] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusTodayUPDATE(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:423) - System.FormatException: 字串未被辨認為有效的 DateTime。
+   於 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   於 System.Convert.ToDateTime(String value)
+   於 DoorGuard_Temperature.Program.ExcuteSqlCmdCusTodayUPDATE(String sqlCus) 於 D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs: 行 404
+[2022-06-21 16:59:34.7684]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:243) - 
+[2022-06-21 16:59:34.7684]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:243) - 
+[2022-06-21 16:59:34.7684]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:262) - 
+[2022-06-21 16:59:34.7684]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:243) - 
+[2022-06-21 16:59:34.7772]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:243) - 
+[2022-06-21 16:59:34.7772]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:262) - 
+[2022-06-21 17:00:39.0885]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 17:00:39.1363]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:334) - 
+[2022-06-21 17:00:39.1553]--ERROR--[1]--[System.FormatException: 字串未被辨認為有效的 DateTime。] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusTodayUPDATE(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:423) - System.FormatException: 字串未被辨認為有效的 DateTime。
+   於 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   於 System.Convert.ToDateTime(String value)
+   於 DoorGuard_Temperature.Program.ExcuteSqlCmdCusTodayUPDATE(String sqlCus) 於 D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs: 行 404
+[2022-06-21 17:00:39.1553]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:243) - 
+[2022-06-21 17:00:39.1725]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:243) - 
+[2022-06-21 17:00:39.1725]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:262) - 
+[2022-06-21 17:00:39.1725]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:243) - 
+[2022-06-21 17:00:39.1725]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:243) - 
+[2022-06-21 17:00:39.1725]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:262) - 
+[2022-06-21 17:02:49.7003]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 17:02:49.7476]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:334) - 
+[2022-06-21 17:02:49.7654]--ERROR--[1]--[System.FormatException: 字串未被辨認為有效的 DateTime。] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusTodayUPDATE(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:423) - System.FormatException: 字串未被辨認為有效的 DateTime。
+   於 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   於 System.Convert.ToDateTime(String value)
+   於 DoorGuard_Temperature.Program.ExcuteSqlCmdCusTodayUPDATE(String sqlCusEarly) 於 D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs: 行 404
+[2022-06-21 17:02:49.7734]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:243) - 
+[2022-06-21 17:02:49.7734]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:243) - 
+[2022-06-21 17:02:49.7734]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:262) - 
+[2022-06-21 17:02:49.7734]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:243) - 
+[2022-06-21 17:02:49.7734]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:243) - 
+[2022-06-21 17:02:49.7734]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:262) - 
+[2022-06-21 17:03:25.0769]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 17:03:25.1218]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:334) - 
+[2022-06-21 17:03:25.1378]--ERROR--[1]--[System.FormatException: 字串未被辨認為有效的 DateTime。] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusTodayUPDATE(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:423) - System.FormatException: 字串未被辨認為有效的 DateTime。
+   於 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   於 System.Convert.ToDateTime(String value)
+   於 DoorGuard_Temperature.Program.ExcuteSqlCmdCusTodayUPDATE(String sqlCusEarly) 於 D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs: 行 404
+[2022-06-21 17:03:25.1378]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:243) - 
+[2022-06-21 17:03:25.1498]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:243) - 
+[2022-06-21 17:03:25.1498]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:262) - 
+[2022-06-21 17:03:25.1498]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:243) - 
+[2022-06-21 17:03:25.1498]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:243) - 
+[2022-06-21 17:03:25.1498]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:262) - 
+[2022-06-21 17:04:27.6481]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 17:04:27.6956]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:334) - 
+[2022-06-21 17:06:24.6429]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 17:06:24.6909]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:334) - 
+[2022-06-21 17:06:24.7139]--ERROR--[1]--[System.FormatException: 字串未被辨認為有效的 DateTime。] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusTodayUPDATE(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:423) - System.FormatException: 字串未被辨認為有效的 DateTime。
+   於 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   於 System.Convert.ToDateTime(String value)
+   於 DoorGuard_Temperature.Program.ExcuteSqlCmdCusTodayUPDATE(String sqlCusEarly) 於 D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs: 行 404
+[2022-06-21 17:06:24.7259]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:243) - 
+[2022-06-21 17:06:24.7259]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:243) - 
+[2022-06-21 17:06:24.7259]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:262) - 
+[2022-06-21 17:06:24.7259]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:243) - 
+[2022-06-21 17:06:24.7259]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:243) - 
+[2022-06-21 17:06:24.7259]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:262) - 
+[2022-06-21 17:06:45.5669]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 17:06:45.6289]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:334) - 
+[2022-06-21 17:06:45.6379]--INFO--[1]--[讀取對方有上傳體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusTodayUPDATE(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:419) - 
+[2022-06-21 17:06:45.6379]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:198) - 
+[2022-06-21 17:07:42.5238]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 17:07:42.5706]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:334) - 
+[2022-06-21 17:07:42.5706]--INFO--[1]--[讀取對方有上傳體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusTodayUPDATE(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:419) - 
+[2022-06-21 17:07:42.5828]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:198) - 
+[2022-06-21 17:07:42.5828]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:214) - 
+[2022-06-21 17:07:42.5828]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:243) - 
+[2022-06-21 17:07:42.5828]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:243) - 
+[2022-06-21 17:07:42.5828]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:262) - 
+[2022-06-21 17:07:42.5828]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:243) - 
+[2022-06-21 17:07:42.5828]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:243) - 
+[2022-06-21 17:07:42.5828]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:262) - 
+[2022-06-21 17:08:19.8201]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 17:08:19.8631]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:334) - 
+[2022-06-21 17:08:19.8631]--INFO--[1]--[讀取對方有上傳體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusTodayUPDATE(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:419) - 
+[2022-06-21 17:08:19.8631]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:198) - 
+[2022-06-21 17:08:19.8631]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:214) - 
+[2022-06-21 17:08:19.8631]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:243) - 
+[2022-06-21 17:08:19.8800]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:243) - 
+[2022-06-21 17:08:19.8800]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:262) - 
+[2022-06-21 17:08:19.8800]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:243) - 
+[2022-06-21 17:08:19.8800]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:243) - 
+[2022-06-21 17:08:19.8800]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:262) - 
+[2022-06-21 17:15:49.7095]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 17:15:49.8071]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:334) - 
+[2022-06-21 17:15:49.8142]--INFO--[1]--[讀取對方有上傳體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusTodayUPDATE(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:419) - 
+[2022-06-21 17:15:49.8142]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:198) - 
+[2022-06-21 17:15:49.8142]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:214) - 
+[2022-06-21 17:15:49.8142]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:243) - 
+[2022-06-21 17:15:49.8142]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:243) - 
+[2022-06-21 17:15:49.8142]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:262) - 
+[2022-06-21 17:15:49.8242]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:243) - 
+[2022-06-21 17:15:49.8242]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:243) - 
+[2022-06-21 17:15:49.8242]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:262) - 
+[2022-06-21 17:20:01.6505]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 17:20:01.6951]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:334) - 
+[2022-06-21 17:20:01.7025]--INFO--[1]--[讀取對方有上傳體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusTodayUPDATE(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:419) - 
+[2022-06-21 17:20:01.7025]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:198) - 
+[2022-06-21 17:20:01.7025]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:214) - 
+[2022-06-21 17:20:01.7025]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:243) - 
+[2022-06-21 17:20:01.7122]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:243) - 
+[2022-06-21 17:20:01.7122]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:262) - 
+[2022-06-21 17:20:01.7122]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:243) - 
+[2022-06-21 17:20:01.7122]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:243) - 
+[2022-06-21 17:20:01.7122]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:262) - 
+[2022-06-21 17:22:50.1724]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 17:22:50.2219]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:335) - 
+[2022-06-21 17:22:50.2300]--INFO--[1]--[讀取對方有上傳體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusTodayUPDATE(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:420) - 
+[2022-06-21 17:22:50.2300]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:198) - 
+[2022-06-21 17:22:50.2300]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢1] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:212) - 
+[2022-06-21 17:22:50.2300]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:215) - 
+[2022-06-21 17:22:50.2300]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:22:50.2410]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:22:50.2410]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:263) - 
+[2022-06-21 17:22:50.2410]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:22:50.2410]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:22:50.2410]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:263) - 
+[2022-06-21 17:25:09.2115]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 17:25:09.2572]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:335) - 
+[2022-06-21 17:25:09.2572]--INFO--[1]--[讀取對方有上傳體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusTodayUPDATE(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:420) - 
+[2022-06-21 17:25:09.2572]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:198) - 
+[2022-06-21 17:25:09.2572]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢1] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:212) - 
+[2022-06-21 17:25:09.2572]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:215) - 
+[2022-06-21 17:25:09.2717]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:25:09.2717]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:25:09.2717]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:263) - 
+[2022-06-21 17:25:09.2717]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:25:09.2717]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:25:09.2717]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:263) - 
+[2022-06-21 17:25:48.2846]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 17:25:48.3321]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:335) - 
+[2022-06-21 17:25:48.3321]--INFO--[1]--[讀取對方有上傳體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusTodayUPDATE(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:420) - 
+[2022-06-21 17:25:48.3321]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:198) - 
+[2022-06-21 17:25:48.3321]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢1] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:212) - 
+[2022-06-21 17:25:48.3321]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:215) - 
+[2022-06-21 17:25:48.3321]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:25:48.3501]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:25:48.3501]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:263) - 
+[2022-06-21 17:25:48.3501]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:25:48.3501]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:25:48.3501]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:263) - 
+[2022-06-21 17:26:24.2810]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 17:26:24.3281]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:335) - 
+[2022-06-21 17:26:24.3371]--INFO--[1]--[讀取對方有上傳體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusTodayUPDATE(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:420) - 
+[2022-06-21 17:26:24.3371]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:198) - 
+[2022-06-21 17:28:00.6502]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 17:28:00.6942]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:335) - 
+[2022-06-21 17:28:00.6942]--INFO--[1]--[讀取對方有上傳體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusTodayUPDATE(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:420) - 
+[2022-06-21 17:28:00.7052]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:198) - 
+[2022-06-21 17:29:55.6435]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 17:29:55.6931]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:335) - 
+[2022-06-21 17:29:55.6931]--INFO--[1]--[讀取對方有上傳體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusTodayUPDATE(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:420) - 
+[2022-06-21 17:29:55.7060]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:198) - 
+[2022-06-21 17:29:55.7060]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢1] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:212) - 
+[2022-06-21 17:29:55.7060]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:215) - 
+[2022-06-21 17:29:55.7060]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:29:55.7060]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:29:55.7060]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:263) - 
+[2022-06-21 17:29:55.7060]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:29:55.7194]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:29:55.7194]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:263) - 
+[2022-06-21 17:31:38.3641]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 17:31:38.4100]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:335) - 
+[2022-06-21 17:31:38.4100]--INFO--[1]--[讀取對方有上傳體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusTodayUPDATE(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:420) - 
+[2022-06-21 17:31:38.4230]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:198) - 
+[2022-06-21 17:31:38.4230]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢1] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:212) - 
+[2022-06-21 17:31:38.4230]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:215) - 
+[2022-06-21 17:31:38.4230]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:31:38.4230]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:31:38.4230]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:263) - 
+[2022-06-21 17:31:38.4230]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:31:38.4230]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:31:38.4230]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:263) - 
+[2022-06-21 17:32:26.2255]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 17:32:26.2724]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:335) - 
+[2022-06-21 17:32:26.2804]--INFO--[1]--[讀取對方有上傳體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusTodayUPDATE(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:420) - 
+[2022-06-21 17:32:26.2804]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:198) - 
+[2022-06-21 17:32:26.2804]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢1] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:212) - 
+[2022-06-21 17:32:26.2804]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:215) - 
+[2022-06-21 17:32:26.2804]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:32:26.2804]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:32:26.2804]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:263) - 
+[2022-06-21 17:32:26.2804]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:32:26.2963]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:32:26.2963]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:263) - 
+[2022-06-21 17:33:48.8110]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 17:33:48.8571]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:335) - 
+[2022-06-21 17:33:48.8571]--INFO--[1]--[讀取對方有上傳體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusTodayUPDATE(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:420) - 
+[2022-06-21 17:33:48.8571]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:198) - 
+[2022-06-21 17:33:48.8571]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢1] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:212) - 
+[2022-06-21 17:33:48.8571]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:215) - 
+[2022-06-21 17:33:48.8571]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:33:48.8746]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:33:48.8746]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:263) - 
+[2022-06-21 17:33:48.8746]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:33:48.8746]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:33:48.8746]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:263) - 
+[2022-06-21 17:35:25.9590]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 17:35:26.0140]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:335) - 
+[2022-06-21 17:35:26.0140]--INFO--[1]--[讀取對方有上傳體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusTodayUPDATE(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:420) - 
+[2022-06-21 17:35:26.0290]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:198) - 
+[2022-06-21 17:35:26.0290]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢1] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:212) - 
+[2022-06-21 17:35:26.0290]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:215) - 
+[2022-06-21 17:35:26.0290]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:35:26.0290]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:35:26.0290]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:35:26.0290]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:263) - 
+[2022-06-21 17:35:26.0450]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:35:26.0450]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:35:26.0450]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:35:26.0450]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:263) - 
+[2022-06-21 17:35:26.0600]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:35:26.0600]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:35:26.0600]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:35:26.0600]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:263) - 
+[2022-06-21 17:36:49.4755]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 17:36:49.5275]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:335) - 
+[2022-06-21 17:36:49.5275]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:36:49.5275]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:36:49.5445]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:36:49.5445]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:263) - 
+[2022-06-21 17:36:49.5445]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:36:49.5445]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:36:49.5445]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:36:49.5445]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:263) - 
+[2022-06-21 17:36:49.5595]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:36:49.5595]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:36:49.5595]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:36:49.5595]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:263) - 
+[2022-06-21 17:38:17.3589]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 17:38:17.4063]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:335) - 
+[2022-06-21 17:38:17.4183]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:38:17.4183]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:38:17.4183]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:38:17.4183]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:263) - 
+[2022-06-21 17:38:17.4183]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:38:17.4183]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:38:17.4375]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:38:17.4375]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:263) - 
+[2022-06-21 17:38:17.4375]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:38:17.4375]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:38:17.4501]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:38:17.4501]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:263) - 
+[2022-06-21 17:39:09.9503]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 17:39:09.9973]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:335) - 
+[2022-06-21 17:39:09.9973]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:39:10.0113]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:39:10.0113]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:39:10.0113]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:263) - 
+[2022-06-21 17:39:10.0113]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:39:10.0113]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:39:10.0113]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:39:10.0113]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:263) - 
+[2022-06-21 17:39:10.0293]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:39:10.0293]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:39:10.0293]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:39:10.0293]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:263) - 
+[2022-06-21 17:39:37.1515]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 17:39:37.1975]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:335) - 
+[2022-06-21 17:39:37.1975]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:41:11.3543]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 17:41:11.4014]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:335) - 
+[2022-06-21 17:41:11.4014]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:42:04.0946]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:68) - 
+[2022-06-21 17:42:04.1451]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:336) - 
+[2022-06-21 17:42:04.1591]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:245) - 
+[2022-06-21 17:42:29.4567]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:68) - 
+[2022-06-21 17:42:29.5017]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:336) - 
+[2022-06-21 17:42:29.5183]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:245) - 
+[2022-06-21 17:42:29.5239]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:245) - 
+[2022-06-21 17:42:29.5239]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:245) - 
+[2022-06-21 17:42:29.5239]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:264) - 
+[2022-06-21 17:42:29.5239]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:245) - 
+[2022-06-21 17:42:29.5239]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:245) - 
+[2022-06-21 17:42:29.5414]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:245) - 
+[2022-06-21 17:42:29.5414]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:264) - 
+[2022-06-21 17:42:29.5414]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:245) - 
+[2022-06-21 17:42:29.5414]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:245) - 
+[2022-06-21 17:42:29.5543]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:245) - 
+[2022-06-21 17:42:29.5543]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:264) - 
+[2022-06-21 17:44:21.0335]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 17:44:21.0800]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:335) - 
+[2022-06-21 17:44:21.0920]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:44:21.0920]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:44:21.0920]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:44:21.0920]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:263) - 
+[2022-06-21 17:44:21.1038]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:44:21.1038]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:44:21.1038]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:44:21.1038]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:263) - 
+[2022-06-21 17:44:21.1162]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:44:21.1162]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:44:21.1162]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:44:21.1162]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:263) - 
+[2022-06-21 17:45:28.1245]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 17:45:28.1715]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:337) - 
+[2022-06-21 17:45:28.1829]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:45:28.1947]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:46:17.2073]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 17:46:17.2563]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:337) - 
+[2022-06-21 17:46:17.2563]--INFO--[1]--[讀取對方有上傳體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusToday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:395) - 
+[2022-06-21 17:46:17.2563]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:48:27.7025]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 17:48:27.7500]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:337) - 
+[2022-06-21 17:48:27.7540]--INFO--[1]--[讀取對方有上傳體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusToday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:395) - 
+[2022-06-21 17:48:27.7540]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:48:39.5064]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 17:48:39.5614]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:337) - 
+[2022-06-21 17:48:39.5614]--INFO--[1]--[讀取對方有上傳體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusToday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:395) - 
+[2022-06-21 17:48:39.5724]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:48:39.5724]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:49:21.2123]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 17:49:21.2593]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:337) - 
+[2022-06-21 17:49:21.2593]--INFO--[1]--[讀取對方有上傳體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusToday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:395) - 
+[2022-06-21 17:49:21.2733]--INFO--[1]--[將差集寫入LIS完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:244) - 
+[2022-06-21 17:49:21.2733]--INFO--[1]--[將差集寫入對方TABLE完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:265) - 
+[2022-06-21 17:52:28.8113]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 17:52:28.8571]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:337) - 
+[2022-06-21 17:52:28.8611]--INFO--[1]--[讀取對方有上傳體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusToday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:395) - 
+[2022-06-21 17:53:36.0567]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 17:53:36.1047]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:337) - 
+[2022-06-21 17:53:36.1097]--INFO--[1]--[讀取對方有上傳體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusToday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:395) - 
+[2022-06-21 17:54:28.6721]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 17:54:28.7181]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:337) - 
+[2022-06-21 17:54:28.7221]--INFO--[1]--[讀取對方有上傳體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusToday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:395) - 
+[2022-06-21 17:55:42.1413]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 17:55:42.1894]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:337) - 
+[2022-06-21 17:55:42.1894]--INFO--[1]--[讀取對方有上傳體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusToday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:395) - 
+[2022-06-21 17:56:41.9701]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 17:56:42.0161]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:337) - 
+[2022-06-21 17:56:42.0161]--INFO--[1]--[讀取對方有上傳體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusToday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:395) - 
+[2022-06-21 17:58:53.5246]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 17:58:53.5718]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:337) - 
+[2022-06-21 17:58:53.5768]--INFO--[1]--[讀取對方有上傳體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusToday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:395) - 
+[2022-06-21 18:00:26.0559]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 18:00:26.1030]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:337) - 
+[2022-06-21 18:00:26.1070]--INFO--[1]--[讀取對方有上傳體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusToday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:395) - 
+[2022-06-21 18:01:56.7716]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 18:01:56.8176]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:337) - 
+[2022-06-21 18:01:56.8176]--INFO--[1]--[讀取對方有上傳體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusToday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:395) - 
+[2022-06-21 18:03:09.2176]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 18:03:09.2670]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:337) - 
+[2022-06-21 18:03:09.2670]--INFO--[1]--[讀取對方有上傳體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusToday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:395) - 
+[2022-06-21 18:06:49.7894]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 18:06:49.8354]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:338) - 
+[2022-06-21 18:06:49.8397]--INFO--[1]--[讀取對方有上傳體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusToday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:396) - 
+[2022-06-21 18:08:04.1774]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 18:08:04.2244]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:338) - 
+[2022-06-21 18:08:04.2284]--INFO--[1]--[讀取對方有上傳體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusToday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:396) - 
+[2022-06-21 18:11:48.2143]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 18:11:48.2630]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:338) - 
+[2022-06-21 18:11:48.2630]--INFO--[1]--[讀取對方有上傳體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusToday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:396) - 
+[2022-06-21 18:11:48.2630]--INFO--[1]--[讀取對方有上傳體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusToday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:396) - 
+[2022-06-21 18:12:27.2457]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 18:12:27.2924]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:338) - 
+[2022-06-21 18:12:27.2924]--INFO--[1]--[讀取對方有上傳體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusToday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:396) - 
+[2022-06-21 18:12:27.2924]--INFO--[1]--[讀取對方有上傳體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusToday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:396) - 
+[2022-06-21 18:13:55.2511]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 18:13:55.2971]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:338) - 
+[2022-06-21 18:13:55.2971]--INFO--[1]--[讀取對方有上傳體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusToday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:396) - 
+[2022-06-21 18:13:55.3051]--INFO--[1]--[讀取對方有上傳體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusToday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:396) - 
+[2022-06-21 18:13:55.3051]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:199) - 
+[2022-06-21 18:14:27.8656]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 18:14:27.9126]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:338) - 
+[2022-06-21 18:14:27.9126]--INFO--[1]--[讀取對方有上傳體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusToday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:396) - 
+[2022-06-21 18:14:27.9126]--INFO--[1]--[讀取對方有上傳體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusToday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:396) - 
+[2022-06-21 18:14:27.9126]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:199) - 
+[2022-06-21 18:15:03.2465]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 18:15:03.2913]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:338) - 
+[2022-06-21 18:15:03.2913]--INFO--[1]--[讀取對方有上傳體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusToday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:396) - 
+[2022-06-21 18:15:03.2913]--INFO--[1]--[讀取對方有上傳體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusToday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:396) - 
+[2022-06-21 18:15:03.3015]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:199) - 
+[2022-06-21 18:15:15.9283]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 18:15:15.9773]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:338) - 
+[2022-06-21 18:15:15.9773]--INFO--[1]--[讀取對方有上傳體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusToday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:396) - 
+[2022-06-21 18:15:15.9773]--INFO--[1]--[讀取對方有上傳體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusToday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:396) - 
+[2022-06-21 18:15:15.9893]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:199) - 
+[2022-06-21 18:15:15.9893]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:213) - 
+[2022-06-21 18:15:15.9893]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:199) - 
+[2022-06-21 18:15:15.9893]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:213) - 
+[2022-06-21 18:15:15.9893]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:199) - 
+[2022-06-21 18:15:15.9893]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:213) - 
+[2022-06-21 18:15:15.9893]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:199) - 
+[2022-06-21 18:15:15.9893]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:213) - 
+[2022-06-21 18:15:15.9893]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:199) - 
+[2022-06-21 18:15:15.9893]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:213) - 
+[2022-06-21 18:15:16.0053]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:199) - 
+[2022-06-21 18:15:16.0053]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:213) - 
+[2022-06-21 18:15:16.0053]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:216) - 
+[2022-06-21 18:15:16.0053]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:199) - 
+[2022-06-21 18:15:16.0053]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢3] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:213) - 
+[2022-06-21 18:15:16.0053]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:199) - 
+[2022-06-21 18:15:16.0053]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢3] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:213) - 
+[2022-06-21 18:15:16.0053]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:199) - 
+[2022-06-21 18:15:16.0053]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢3] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:213) - 
+[2022-06-21 18:15:16.0223]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:199) - 
+[2022-06-21 18:15:16.0223]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢3] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:213) - 
+[2022-06-21 18:15:16.0223]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:199) - 
+[2022-06-21 18:15:16.0223]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢3] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:213) - 
+[2022-06-21 18:15:16.0223]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:199) - 
+[2022-06-21 18:15:16.0223]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢3] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:213) - 
+[2022-06-21 18:15:16.0223]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:216) - 
+[2022-06-21 18:15:16.0353]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:199) - 
+[2022-06-21 18:15:16.0353]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢4] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:213) - 
+[2022-06-21 18:15:16.0353]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:199) - 
+[2022-06-21 18:15:16.0353]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢4] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:213) - 
+[2022-06-21 18:15:16.0353]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:199) - 
+[2022-06-21 18:15:16.0353]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢4] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:213) - 
+[2022-06-21 18:15:16.0353]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:199) - 
+[2022-06-21 18:15:16.0353]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢4] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:213) - 
+[2022-06-21 18:15:16.0526]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:199) - 
+[2022-06-21 18:15:16.0526]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢4] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:213) - 
+[2022-06-21 18:15:16.0526]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:199) - 
+[2022-06-21 18:15:16.0526]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢4] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:213) - 
+[2022-06-21 18:15:16.0526]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:216) - 
+[2022-06-21 18:15:16.0526]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:199) - 
+[2022-06-21 18:15:16.0526]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢4] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:213) - 
+[2022-06-21 18:15:16.0526]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:199) - 
+[2022-06-21 18:15:16.0526]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢4] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:213) - 
+[2022-06-21 18:15:16.0676]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:199) - 
+[2022-06-21 18:15:16.0676]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢4] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:213) - 
+[2022-06-21 18:15:16.0676]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:199) - 
+[2022-06-21 18:15:16.0676]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢4] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:213) - 
+[2022-06-21 18:15:16.0676]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:199) - 
+[2022-06-21 18:15:16.0676]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢4] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:213) - 
+[2022-06-21 18:15:16.0676]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:199) - 
+[2022-06-21 18:15:16.0676]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢4] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:213) - 
+[2022-06-21 18:15:16.0676]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:216) - 
+[2022-06-21 18:15:16.0826]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:199) - 
+[2022-06-21 18:15:16.0826]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢3] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:213) - 
+[2022-06-21 18:15:16.0826]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:199) - 
+[2022-06-21 18:15:16.0826]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢3] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:213) - 
+[2022-06-21 18:15:16.0826]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:199) - 
+[2022-06-21 18:15:16.0826]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢3] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:213) - 
+[2022-06-21 18:15:16.0826]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:199) - 
+[2022-06-21 18:15:16.0976]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢3] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:213) - 
+[2022-06-21 18:15:16.0976]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:199) - 
+[2022-06-21 18:15:16.0976]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢3] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:213) - 
+[2022-06-21 18:15:16.0976]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:199) - 
+[2022-06-21 18:15:16.0976]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢3] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:213) - 
+[2022-06-21 18:15:16.0976]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:216) - 
+[2022-06-21 18:15:16.0976]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:199) - 
+[2022-06-21 18:15:16.0976]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢4] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:213) - 
+[2022-06-21 18:15:16.1148]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:199) - 
+[2022-06-21 18:15:16.1148]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢4] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:213) - 
+[2022-06-21 18:15:16.1148]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:199) - 
+[2022-06-21 18:15:16.1148]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢4] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:213) - 
+[2022-06-21 18:15:16.1148]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:199) - 
+[2022-06-21 18:15:16.1148]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢4] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:213) - 
+[2022-06-21 18:15:16.1148]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:199) - 
+[2022-06-21 18:15:16.1148]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢4] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:213) - 
+[2022-06-21 18:15:16.1305]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:199) - 
+[2022-06-21 18:15:16.1305]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢4] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:213) - 
+[2022-06-21 18:15:16.1305]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:216) - 
+[2022-06-21 18:16:29.3209]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 18:16:29.3679]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:338) - 
+[2022-06-21 18:16:29.3679]--INFO--[1]--[讀取對方有上傳體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusToday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:396) - 
+[2022-06-21 18:16:29.3679]--INFO--[1]--[讀取對方有上傳體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusToday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:396) - 
+[2022-06-21 18:16:29.3786]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:199) - 
+[2022-06-21 18:17:40.1262]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 18:17:40.1732]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:338) - 
+[2022-06-21 18:17:40.1782]--INFO--[1]--[讀取對方有上傳體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusToday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:396) - 
+[2022-06-21 18:17:40.1782]--INFO--[1]--[讀取對方有上傳體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusToday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:396) - 
+[2022-06-21 18:17:40.1782]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:199) - 
+[2022-06-21 18:17:40.1782]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:213) - 
+[2022-06-21 18:17:40.1782]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:199) - 
+[2022-06-21 18:17:40.1782]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:213) - 
+[2022-06-21 18:17:40.1912]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:199) - 
+[2022-06-21 18:17:40.1912]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:213) - 
+[2022-06-21 18:17:40.1912]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:199) - 
+[2022-06-21 18:17:40.1912]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:213) - 
+[2022-06-21 18:17:40.1912]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:199) - 
+[2022-06-21 18:17:40.1912]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:213) - 
+[2022-06-21 18:17:40.1912]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:199) - 
+[2022-06-21 18:17:40.1912]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:213) - 
+[2022-06-21 18:17:40.1912]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:216) - 
+[2022-06-21 18:18:22.7428]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 18:18:22.7878]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:338) - 
+[2022-06-21 18:18:22.7878]--INFO--[1]--[讀取對方有上傳體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusToday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:396) - 
+[2022-06-21 18:18:22.7878]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:199) - 
+[2022-06-21 18:18:22.7878]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:213) - 
+[2022-06-21 18:18:22.8012]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:199) - 
+[2022-06-21 18:18:22.8012]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:213) - 
+[2022-06-21 18:18:22.8012]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:199) - 
+[2022-06-21 18:18:22.8012]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:213) - 
+[2022-06-21 18:18:22.8012]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:216) - 
+[2022-06-21 18:18:22.8012]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:199) - 
+[2022-06-21 18:18:22.8012]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢3] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:213) - 
+[2022-06-21 18:18:22.8012]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:199) - 
+[2022-06-21 18:18:22.8012]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢3] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:213) - 
+[2022-06-21 18:18:22.8146]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:199) - 
+[2022-06-21 18:18:22.8146]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢3] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:213) - 
+[2022-06-21 18:18:22.8146]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:216) - 
+[2022-06-21 18:18:22.8146]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:199) - 
+[2022-06-21 18:18:22.8146]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢4] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:213) - 
+[2022-06-21 18:18:22.8146]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:199) - 
+[2022-06-21 18:18:22.8146]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢4] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:213) - 
+[2022-06-21 18:18:22.8146]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:199) - 
+[2022-06-21 18:18:22.8146]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢4] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:213) - 
+[2022-06-21 18:18:22.8146]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:216) - 
+[2022-06-21 18:18:41.7875]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 18:18:41.8335]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:338) - 
+[2022-06-21 18:18:41.8335]--INFO--[1]--[讀取對方有上傳體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusToday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:396) - 
+[2022-06-21 18:18:41.8335]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:199) - 
+[2022-06-21 18:18:41.8335]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:213) - 
+[2022-06-21 18:18:41.8335]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:199) - 
+[2022-06-21 18:18:41.8335]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:213) - 
+[2022-06-21 18:18:41.8475]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:199) - 
+[2022-06-21 18:18:41.8475]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:213) - 
+[2022-06-21 18:18:41.8475]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:216) - 
+[2022-06-21 18:19:09.9097]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 18:19:09.9564]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:338) - 
+[2022-06-21 18:19:09.9564]--INFO--[1]--[讀取對方有上傳體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusToday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:396) - 
+[2022-06-21 18:19:09.9564]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:199) - 
+[2022-06-21 18:20:09.8260]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 18:20:09.9186]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:338) - 
+[2022-06-21 18:20:09.9186]--INFO--[1]--[讀取對方有上傳體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusToday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:396) - 
+[2022-06-21 18:20:09.9257]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:199) - 
+[2022-06-21 18:20:46.9794]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 18:20:47.0275]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:338) - 
+[2022-06-21 18:20:47.0275]--INFO--[1]--[讀取對方有上傳體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusToday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:396) - 
+[2022-06-21 18:20:47.0344]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:199) - 
+[2022-06-21 18:21:20.5391]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 18:21:20.5843]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:338) - 
+[2022-06-21 18:21:20.5843]--INFO--[1]--[讀取對方有上傳體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusToday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:396) - 
+[2022-06-21 18:21:20.5843]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:199) - 
+[2022-06-21 18:21:51.3651]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 18:21:51.4114]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:338) - 
+[2022-06-21 18:21:51.4114]--INFO--[1]--[讀取對方有上傳體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusToday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:396) - 
+[2022-06-21 18:21:51.4114]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:200) - 
+[2022-06-21 18:21:51.4114]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:213) - 
+[2022-06-21 18:21:51.4224]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:200) - 
+[2022-06-21 18:21:51.4224]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:213) - 
+[2022-06-21 18:21:51.4224]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:200) - 
+[2022-06-21 18:21:51.4224]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:213) - 
+[2022-06-21 18:21:51.4224]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:216) - 
+[2022-06-21 18:22:59.3956]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 18:22:59.4506]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:346) - 
+[2022-06-21 18:22:59.4556]--INFO--[1]--[讀取對方有上傳體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusToday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:404) - 
+[2022-06-21 18:22:59.4556]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:208) - 
+[2022-06-21 18:22:59.4556]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:208) - 
+[2022-06-21 18:22:59.4556]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:208) - 
+[2022-06-21 18:22:59.4556]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:224) - 
+[2022-06-21 18:23:24.7686]--INFO--[1]--[DB Connect Success!] -- DoorGuard_Temperature.Program.SQLConnectDB(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:67) - 
+[2022-06-21 18:23:24.8143]--INFO--[1]--[讀取目前體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdOurTOday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:345) - 
+[2022-06-21 18:23:24.8143]--INFO--[1]--[讀取對方有上傳體溫有的員工資料完畢] -- DoorGuard_Temperature.Program.ExcuteSqlCmdCusToday(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:403) - 
+[2022-06-21 18:23:24.8143]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:207) - 
+[2022-06-21 18:23:24.8143]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:207) - 
+[2022-06-21 18:23:24.8143]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:207) - 
+[2022-06-21 18:23:24.8143]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:223) - 
+[2022-06-21 18:23:24.8303]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:207) - 
+[2022-06-21 18:23:24.8303]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:207) - 
+[2022-06-21 18:23:24.8303]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:207) - 
+[2022-06-21 18:23:24.8303]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:223) - 
+[2022-06-21 18:23:24.8303]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:207) - 
+[2022-06-21 18:23:24.8433]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:207) - 
+[2022-06-21 18:23:24.8433]--INFO--[1]--[查詢CUS原有的員工INFO] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:207) - 
+[2022-06-21 18:23:24.8433]--INFO--[1]--[搜到查詢CUS原有的員工INFO更新完畢] -- DoorGuard_Temperature.Program.FindDifferentTODAY(D:\Riley程式\DoorGuard_Temperature\DoorGuard_Temperature\Program.cs:223) - 
